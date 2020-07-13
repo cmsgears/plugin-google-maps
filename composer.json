@@ -1,0 +1,24 @@
+{
+	"name" : "cmsgears/plugin-google-maps",
+	"description" : "Google Maps plugin for CMSGears provide options to configure Google Maps.",
+	"homepage" : "http://www.cmsgears.org",
+	"type" : "package",
+	"keywords" : [ "yii2", "cmsgears", "plugin", "google", "maps"
+	],
+	"license": "GPL-3.0-or-later",
+	"support" : {
+		"source" : "http://www.cmsgears.org/downloads/plugins/google-maps",
+		"forum" : "http://forum.cmsgears.org",
+		"resources" : "http://resources.cmsgears.org",
+		"issues" : "https://www.amazingdesk.com/cmsgears/issues",
+		"blog" : "http://cmsgears.tutorials24x7.com"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"cmsgears\\google\\maps\\" : ""
+		}
+	},
+	"require" : {
+		"cmsgears/module-core" : "*"
+	}
+}
